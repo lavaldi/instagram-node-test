@@ -1,0 +1,22 @@
+{
+  "name": "node-first-app",
+  "version": "1.0.0",
+  "description": "Node example with instagram developer API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "example",
+    "instagram"
+  ],
+  "author": "Claudia Valdivieso",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "instagram-node": "^0.5.8"
+  }
+}
